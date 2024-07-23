@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION 4</title>
+</head>
+<body>
+    <script>
+        function arrangeNoodles(x, y) {
+  let result = [];
+  
+  for (let i = 1; i <= x; i++) {
+    for (let j = 1; j <= y; j++) {
+      result.push(`Carton ${i} - noodle ${j}`);
+    }
+  }
+  
+  return result;
+}
+
+let x = 3;
+let y = 2;
+let arrangement = arrangeNoodles(x, y);
+console.log(arrangement.join("\n"));
+
+    </script>
+</body>
+</html>

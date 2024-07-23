@@ -1,0 +1,15 @@
+                           SECTION A
+                        DATA STRUCTURES
+                          QUESTION 2
+EXPLAIN WHAT ARRAYS ARE. LIST AND EXPLAIN 5 ARRAY METHODS
+ Array is a data structure used to store a collection of elements, it also a fundamentalin programming and are used for organize and manipulate data efficiently.
+
+  LIST AND EXPLAIN 5 ARRAY METHODS
+  1. pop()
+      Removes and returns the last element from the array. If an index is provided, it removes and returns the element at that index.
+  2. remove()
+      Removes the first occurrence of a specified element from the array.
+  3. sort()
+      Sorts the elements of the array in ascending order. This method can also take optional parameters to specify the sorting order and a key function.
+  4. append()
+      Adds an element to the end of the array.

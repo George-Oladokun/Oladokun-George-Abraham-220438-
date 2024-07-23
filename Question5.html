@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+</head>
+<body>
+   <script>
+    function isPalindrome(word) {
+    const lowerCaseWord = word.toLowerCase();
+    const reversedWord = lowerCaseWord.split('').reverse().join('');
+
+    if (lowerCaseWord === reversedWord) {
+        return "it is a palindrome";
+    } else {
+        return "it is not a palindrome";
+    }
+}
+
+console.log(isPalindrome("racecar"));
+console.log(isPalindrome("hello"));
+   </script>
+</body>
+</html>
